@@ -1,0 +1,103 @@
+body {
+	font-family: "arial", sans-serif;
+}
+
+#heading {
+	font-weight: bolder;
+	font-size: 40px;
+	margin-right: 40%;
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 150px;
+}
+
+.frontbox {
+	border:1px solid white;
+	width: 650px;
+	height: 500px;
+	margin-left: 200px;
+	overflow: auto;
+}
+
+.contentpara h1 {
+	float: left;
+	font-size: 40px;
+	font-family: "arial",sans-serif;
+}
+.contentpara p {
+	border:1px solid white;
+	width: 50%;
+	float: right;
+	overflow-wrap: all;
+	margin-top: 40px;
+	font-size: 15px;
+	font-family: "arial",sans-serif;
+}
+button{
+	border:1px solid red;
+	padding:10px;
+	background:red;
+	color: white;
+	text-decoration: none;
+}
+button:hover {
+	border:1px solid black;
+	padding:10px;
+	background:black;
+	color: white;
+	text-decoration: none;
+
+}
+
+.sidecontent {
+	border:1px solid black;
+	width: 250px;
+	height: 400px;
+	margin-top: 10px;
+	position: absolute;
+	top:50px;
+	right: 150px;
+	padding: 30px;
+	background:black;
+}
+.sidehead a {
+	text-decoration:none;
+	font-weight: bolder;
+	font-size: 15px;
+	color: white;
+}
+
+.sideinfo {
+	color: grey;
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+.cards {
+	border:1px solid white;
+	width: 74%;
+	overflow: auto;
+	margin-left: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+p {
+	font-size: 12px;
+	padding-left: 10px;
+	line-height: 25px;
+	color: grey;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: orange;
+}
